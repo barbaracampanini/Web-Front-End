@@ -20,9 +20,83 @@
             <p align="justify">HTML (HyperText Markup Language) n'est pas un langage de programmation : 
             c'est un langage de balisage qui sert à indiquer au navigateur comment structurer les pages web visitées.
             Le HTML se compose d'une série d'éléments avec lesquels vous pouvez encadrer, envelopper ou baliser différentes 
-            parties du contenu pour les faire apparaître ou agir d'une certaine manière.</p>
+            parties du contenu pour les faire apparaître ou agir d'une certaine manière. Les balises sont utilisées pour indiquer 
+            au navigateur la structure du site. C'est-à-dire que lors de l'écriture de code en HTML, les balises seront interprétées par le navigateur, 
+            produisant ainsi la structure et le contenu visuel de la page.</p>
+            
+            <h2>Structure de base d'un document HTML</h2>
+            <p>Un document HTML reçoit des balises qui forment sa structure de base</p>
+ 
             <h2>Liste de balises importantes</h2>
-                <p>Voici une liste de balises importantes pour la construction de web sites en utilisant HTML</p>
+            <p>Voici une liste de balises importantes pour la construction de web sites en utilisant HTML</p>
+
+            <style>
+                html {
+                  font-family: sans-serif;
+                }
+            
+                table {
+                  border-collapse: collapse;
+                  border: 2px solid rgb(200,200,200);
+                  letter-spacing: 1px;
+                  font-size: 0.8rem;
+                }
+            
+                td, th {
+                  border: 1px solid rgb(190,190,190);
+                  padding: 10px 20px;
+                }
+            
+                td {
+                  text-align: center;
+                }
+            
+                caption {
+                  padding: 10px;
+                }
+                </style>
+              </head>
+              <body>
+                <h2>Liste de balises importantes</h2>
+            
+                <table>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <th>Description</th>
+                    <th>Exemple</th>
+                  
+                  </tr>
+                  <tr>
+                    <th>Balise 1</th>
+                    <td>Si nous voulons que une ligne dans le text reste en l'état, nous pouvons dire 
+                        qu'il s'agit d'un paragraphe en l'enveloppant d'un élément paragraphe <strong> &lt;p&gt;.</td>
+                    <td>&nbsp;</td>
+                    
+                    
+                  </tr>
+                  <tr>
+                    <th>Balise 2</th>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    
+                    
+                  </tr>
+                  <tr>
+                    <th>Balise 3</th>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                   
+                    
+                  </tr>
+                  <tr>
+                    <th>Balise 4</th>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    
+                    
+                  </tr>
+                </table>
+
             <h3>Paragraphe &lt;p&gt;</h3>
                 <p>Si nous voulons que une ligne dans le text reste en l'état, nous pouvons dire 
                 qu'il s'agit d'un paragraphe en l'enveloppant d'un élément paragraphe <strong> &lt;p&gt;.</strong></p>
@@ -42,9 +116,8 @@
                 <span style="background-color: #d3d3d3">&lt;p&gt;Mon chien est très &lt;strong&gt;<strong>gentil</strong> &lt;/strong&gt;&lt;p&gt;</span> 
                 <br>
                 <br>
-            <h3>#####Paragraphe &lt;p&gt;</h3>
-                <p>Si nous voulons que une ligne dans le text reste en l'état, nous pouvons dire 
-                qu'il s'agit d'un paragraphe en l'enveloppant d'un élément paragraphe <strong> &lt;p&gt;.</strong></p>
+            <h3>Element &lt;a&gt;</h3>
+                <p>Il représente une ancre et permet de transformer en lien l'élément qu'il enveloppe. Il peut recevoir un certain nombre d'attributs</p>
                 <p>Exemple:</p>
                 <span style="background-color: #d3d3d3">&lt;p&gt;Mon chat est très grincheux &lt;/p&gt;</span>
             <h3>#####Paragraphe &lt;p&gt;</h3>
