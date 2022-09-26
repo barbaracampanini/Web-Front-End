@@ -3,46 +3,98 @@
     <link rel="stylesheet" type="text/css" href="labo1.css" />
     <head>
         <link rel="icon" type="image/png" sizes="16x16" href="images\favicon-16x16.png">
-        <title>Artisan</title>
+        <title>Arti</title>
+		<style>
+		* {
+		  box-sizing: border-box;
+		}
+
+		/* Create two equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 50%;
+		  padding: 10px;
+		  height: 300px; /* Should be removed. Only for demonstration */
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		</style>		
     </head>
     <body>
-        <div class="bg-container">
-            <nav>
-                <a href="index.html">AccuEIl</a> |
+	<!--
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>	-->
+        <div class="bg-container row">
+            <nav class="bordure">
+                <a href="accueil.html">AccuEIl</a> |
                 <a href="produits.html">PRODUITS</a> |
                 <a href="connection.html">CONNectez-vous</a> |
             </nav>
             <h1>aRTi</h1>
-                <h2>aRTISANAt. cRÉATIOn.</h2><br><br>
-    
-            <form action="action_page.php">
-                <div class="bordure">
-                    <h2>Inscrivez-vous ici</h2>
-                    <p>Veuillez remplir ce formulaire pour créer un compte.</p>
-                    <hr>
-                
-                    <label for="fname"><b>Prénom:</b></label><br>
-                    <input type="text" id="fname" name="fname"><br>
+			<h2>aRTISANAt. cRÉATIOn.</h2><br><br>
+				
+				
+			<div class="column">	
+				<form action="">
+					<div class="bordure">
+						<h4>Vous avez déjà un compte?</h4>
+						<h2>Se connecter</h2>
+						<p>Veuillez accéder à votre compte.</p>
+						<hr>
+					
+						<label><b>Courriel</b></label><br>
+						<input type="text" placeholder="Entrez votre courriel" required><br>
+					
+						<label><b>Mot de passe</b></label><br>
+						<input type="password" placeholder="Entrez mot de passe" required><br>
+				
+						<hr>
+					
+						<button class="buttons" type="submit"><b>Valider</b></button>
+					</div>
+				
+				</form>				
+			  </div>
+			  <div class="column">
+				<form action="">
+					<div class="bordure">
+						<h4>Vous n'êtes pas encore inscrit?</h4>
+						<h2>Inscrivez-vous ici</h2>
+						<p>Veuillez remplir ce formulaire pour créer un compte.</p>
+						<hr>
+					
+						<label><b>Prénom:</b></label><br>
+						<input type="text"><br>
 
-                    <label for="lname"><b>Nome:</b></label><br>
-                    <input type="text" id="lname" name="lname"><br><br>
+						<label><b>Nome:</b></label><br>
+						<input type="text"><br><br>
 
-                    <label for="email"><b>Courriel</b></label><br>
-                    <input type="text" placeholder="Entrez Courriel" name="email" id="email" required><br>
-                
-                    <label for="psw"><b>Mot de passe</b></label><br>
-                    <input type="password" placeholder="Entrez mot de passe" name="psw" id="psw" required><br>
-            
-                    <hr>
-                
-                    <p>En créant un compte, vous acceptez nos <a href="#"> Conditions d'utilisation et Confidentialité</a>.</p>
-                    <button class="buttons" type="submit"><b>S'inscrire</b></button>
-                </div>
-            
-                <div class="container signin">
-                    <p>Vous avez déjà un compte? <a href="#">S'identifier</a>.</p>
-                </div>
-            </form>
+						<label><b>Courriel</b></label><br>
+						<input type="text" placeholder="Entrez votre courriel" required><br>
+					
+						<label><b>Mot de passe</b></label><br>
+						<input type="password" placeholder="Entrez mot de passe" required><br>
+
+						<hr>
+					
+						<button class="buttons" type="submit"><b>S'inscrire</b></button>
+					</div>
+
+				</form>
+			</div>	
         </div>
     </body>
 </html>
