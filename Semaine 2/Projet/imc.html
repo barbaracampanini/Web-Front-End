@@ -10,6 +10,13 @@
                 function calculer_IMC (taille, poids){
                     return poids / (taille*taille);    
                 }
+
+                function afficher_IMC() {
+                    tailleParam = document.getElementById('taille').value; 
+                    poidsParam = document.getElementById('poids').value; 
+                    resultat = calculer_IMC(tailleParam, poidsParam);
+                    document.getElementById('result').value = resultat;
+                }
             </script>
         </head>
       
@@ -23,7 +30,17 @@
             </nav>
             <h1>Exercice JavaScript: IMC</h1>
             <p>Écrire une fonction qui prends une taille et un poids et qui retournes l'IMC. Vous devez avoir une méthode pour les données métriques et pour les données impériales.           </p>
-
+            <label for="taille">Informez taille</label>
+            <input type="text" id="taille"/> <br>
+            
+            <label for="poids">Informez poids</label>
+            <input type="text" id="poids"/> <br>
+            
+            <label for="IMC">Resultat IMC:</label>
+            <input type="text" id="result"/><br>
+            <br>
+            <br>
+            <button onclick="afficher_IMC();">Calculer IMC</button>
             
         </body>
     </html>

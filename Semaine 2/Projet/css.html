@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+        <link rel="stylesheet" type="text/css" href="fichier.css" />
+        <head>
+            <meta charset="utf-8">
+            <title>css</title>
+            <style>body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+            </style>
+        </head>
+        
+        <body>
+            <nav>
+                <a href="index.html">Page initial</a> 
+                <a href="html.html">HTML</a> |
+                <a href="css.html">CSS</a> |
+                <a href="js.html">JavaScript</a> |
+                <a href="WebApi.html">Web Api</a>
+            </nav>
+            <h1>CSS</h1>
+            <p>«En construction»</p>
+            <p><strong>Partie 1 :</strong> tableau de 3x3 et appliquer un différent style à chaque case. Votre tableau doit aussi avoir une bordure visible. 
+            Les choix de styles sont à votre discrétion. Vous pouvez aussi utiliser colgroup et col pour appliquer un style sur une section de tableau, 
+            mais les cases dans la sous-section doivent avoir leur propre style.</p>
+
+            <table id="style_chaque_case" class="style_chaque_case" style="margin-left: auto; margin-right: auto;">
+                <colgroup>
+                    <col span="3"  style="text-align: center;">
+                </colgroup>                
+                <tr>
+                    <td class="style_chaque_case_1">11111111111111</td>
+                    <td class="style_chaque_case_2">22222222222222</td>
+                    <td class="style_chaque_case_3">33333333333333</td>
+                </tr>
+                <tr>
+                    <td class="style_chaque_case_4">44444444444444</td>
+                    <td class="style_chaque_case_5">55555555555555</td>
+                    <td class="style_chaque_case_6">66666666666666</td>
+                </tr>
+                <tr>
+                    <td class="style_chaque_case_7">77777777777777</td>
+                    <td class="style_chaque_case_8"><h2>88888888888888</h2></td>
+                    <td class="style_chaque_case_9">99999999999999</td>
+                </tr>
+            </table>
+
+            <p><strong>Partie 2 :</strong> une ou des structures de votre choix (formulaire, tableau, etc.) et implémenter du style en utilisant CSS en suivant les règles suivantes:
+                Votre structure doit avoir un style par défaut. Vous devez aussi utiliser 3 classes et 2 ids. Un des id doit être appliqué à une structure faisant partie d'une classe. Assurez-vous que le style du id soit celui présenté à l'écran.
+           
+                <form action="/action_page.php">
+                    <label>Prenom:</label><br>
+                    <input type="text" id="prenom" name="prenom"><br>
+
+                    <label for="nom">Nom:</label><br>
+                    <input type="text" id="nom" name="nom"><br><br>
+
+                    <input type="submit" value="Submit">
+                  </form> 
+        </body>
+    </html>

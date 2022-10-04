@@ -1,0 +1,57 @@
+table {
+	width: 300px;
+	height: 300px;
+	position: center;
+}
+
+table.style_chaque_case {
+    margin-left: auto; margin-right: auto; 
+}
+#style_chaque_case td {
+    text-align: center;
+}
+.style_chaque_case_1 {
+    background-color: rgb(141, 97, 97);
+}
+.style_chaque_case_2 {
+    border: 5px dashed rgb(167, 76, 41);
+}
+.style_chaque_case_3 {
+    font-style:oblique; font-size: xx-large; background-color: rgb(248, 244, 244); border: 3px;
+}
+.style_chaque_case_4 {
+    transform: rotate(10deg); background: rgb(37, 1, 1);
+}
+.style_chaque_case_5 {
+    cursor: not-allowed;"
+}
+.style_chaque_case_6 {
+    box-decoration-break: slice; box-shadow: 8px 8px 10px 0 #ff1493, -5px -5px 5px 0 #00f, 5px 5px 15px 0 #ff0;
+}
+.style_chaque_case_7 {
+    text-decoration: underline solid red 50%;
+}
+.style_chaque_case_8 {
+    text-shadow: 2px 2px #FF0000;
+}
+.style_chaque_case_9:hover {
+    background-color: #ddd;
+}
+/*
+"background-color: rgb(141, 97, 97)"
+"border: 5px dashed rgb(167, 76, 41)"
+font-style:oblique; font-size: xx-large; background-color: rgb(248, 244, 244); border: 3px"
+"transform: rotate(10deg); background: rgb(37, 1, 1);"
+"cursor: not-allowed;"><p>cursor not allowed>
+"box-decoration-break: slice; box-shadow: 8px 8px 10px 0 #ff1493, -5px -5px 5px 0 #00f, 5px 5px 15px 0 #ff0;"
+*/
+
+/*underline
+text-decoration: underline solid red 50%;
+*/
+/* text shadow
+text-shadow: 2px 2px #FF0000;
+*/
+/* mouse over change color
+#customers td:hover {background-color: #ddd;}
+*/
