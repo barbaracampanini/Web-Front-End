@@ -26,14 +26,14 @@
                             <img src="images\buffet.JPG" alt="buffet"/>
                             <div>
                                 <label>Quantité:</label>
-                                <input type="number" id="quantity" name="quantity" min="0" max="5" value="0">
+                                <input class="js-quantity" type="number" id="buffet" name="Buffet" min="0" max="5" value="0">
                             </div>
                         </td>
                         <td>
                             <img src="images\reno_kitchen_cabinet.JPG" alt="cabinet"/>
                             <div>
                                 <label>Quantité:</label>
-                                <input type="number" id="quantity" name="quantity" min="0" max="5" value="0">
+                                <input class="js-quantity" type="number" id="cabinet" name="Cabinet" min="0" max="5" value="0">
                             </div>
                         </td>
                     </tr>
@@ -42,14 +42,14 @@
                             <img src="images\dragon.JPG"  alt="dragon"/>
                             <div>
                                 <label>Quantité:</label>
-                                <input type="number" id="quantity" name="quantity" min="0" max="5" value="0">
+                                <input class="js-quantity" type="number" id="dragon" name="Dragon" min="0" max="5" value="0">
                             </div>
                         </td>
                         <td>
                             <img src="images\throne.jpg" alt="throne"/>
                             <div>
                                 <label>Quantité:</label>
-                                <input type="number" id="quantity" name="quantity" min="0" max="5" value="0">
+                                <input class="js-quantity" type="number" id="throne" name="Throne" min="0" max="5" value="0">
                             </div>
                         </td>
                         <th>
@@ -62,14 +62,14 @@
                             <img src="images\family_frame.jpg" alt="family_frame"/>
                             <div>
                                 <label>Quantité:</label>
-                                <input type="number" id="quantity" name="quantity" min="0" max="5" value="0">
+                                <input class="js-quantity" type="number" id="family_frame" name="Family Frame" min="0" max="5" value="0">
                             </div>
                         </td>
                         <td>
                             <img src="images\door_name.jpg" alt="door_name"/>
                             <div>
                                 <label>Quantité:</label>
-                                <input type="number" id="quantity" name="quantity" min="0" max="5" value="0">
+                                <input class="js-quantity" type="number" id="door_name" name="Door Name" min="0" max="5" value="0">
                             </div>
                         </td>
                         
@@ -77,10 +77,11 @@
                 </table>
 
                 
-                <button type="submit"  class="buttons" onclick="alert('Site en construction')"><b>Passer la commande</b></button>
+                <button type="button"  class="buttons" onclick="nextPage()"><b>Passer la commande</b></button>
             
             </form>
         </div>
         </main>
     </body>
+	<script src="produits.js"></script>
 </html>
